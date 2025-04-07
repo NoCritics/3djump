@@ -3,11 +3,14 @@ Chog-Jump
 //Description
 Doodle jump like on a 3d rotating rectangle on vrtical axis with sides for game frames.
 
-//How to Play
-qe - rotate the map, ad - move the guy.
+//Gameplay manual
+Q <> E - rotate the map, A <> D - move the little guy.
 
-//Technologies Used
+//Built on
 HTML,JS,CSS
 
-//Setup
+//Starting
 Just open html file
+
+//Character
+Simply place the desired image into the repo, delete the existing one and rename it to 'character'. Script will compress images automatically to the required dimensions. 
