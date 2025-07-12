@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succy Jumpy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles"></div>
+    <div class="top-left-instructions">
+        <p>Press 'Q' to rotate left and 'E' to rotate right</p>
+        <p>Use Arrow Keys or 'A' and 'D' to move</p>
+    </div>
+    <h1 class="game-title">Succy Jumpy</h1>
+    <div class="game-container">
+        <div class="squiggle squiggle-left"></div>
+        <div class="squiggle squiggle-right"></div>
+        <div class="cat-scribble"></div>
+        <div class="paw-scribble"></div>
+        <div class="vertex-scribble"></div>
+        <div class="serpentine"></div>
+        <div class="star star-1"></div>
+        <div class="star star-2"></div>
+        <div class="star star-3"></div>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="scene">
+            <div class="cube">
+                <div class="cube__face cube__face--front" id="game-front"></div>
+                <div class="cube__face cube__face--right" id="game-right"></div>
+                <div class="cube__face cube__face--back" id="game-back"></div>
+                <div class="cube__face cube__face--left" id="game-left"></div>
+            </div>
+        </div>
+        <div class="controls">
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
